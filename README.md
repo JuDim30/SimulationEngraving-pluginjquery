@@ -52,7 +52,7 @@ Placer le code suivant dans votre template (HTML /twing/...), à l’emplacement
  ________________________________________
  Aprés téléchargement du dossier SimulationEngraving-pluginjquery.
  
- Placé dans votre dossier js le fichier "SimulationEngraving.js".
+ Placer dans votre dossier js le fichier "SimulationEngraving.js".
  
  Puis dans votre dossier css le fichier "style.css", ainsi que le style que vous souhaitez (optionnel).
  
@@ -100,7 +100,7 @@ $(document).nbCharacter(‘6’);
   $(document).Base(); 
 $(document).listColor( ‘#C6E4E8’, ‘#576466’,’#000’); 
 $(document).listeFontSize(‘25’,’15’,’19’); 
-$(document).listeFontFamily(‘Brush Script Std, Brush Script MT, cursive’, ‘Andale Mono, monospace’, ‘Stencil Std, fantasy’); $(document).nbCharacter(‘6’); $(document).leftTopRepere(‘144’,’-51’);
+$(document).listeFontFamily(‘Brush Script Std, Brush Script MT, cursive’, ‘Andale Mono, monospace’, ‘Stencil Std, fantasy’); $(document).nbCharacter(‘6’);
 ```
 
 ### 3.Informations supplémentaires
