@@ -22,8 +22,7 @@
         
         /*Récupération de la position du repère en récupérant top et left renseignés dans le css*/
 		var repereLeft = parseInt($('#repere').css("left")); 
-		var repereTop = parseInt($('#repere').css("top"));
-console.log(repereTop-sizeFont);		
+		var repereTop = parseInt($('#repere').css("top"));		
 		
  		
 			/*Récuperation des valeurs selectionnés des selects, si pas de selection elles prennent la première valeur*/  
