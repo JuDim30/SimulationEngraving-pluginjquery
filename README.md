@@ -50,8 +50,13 @@ Placer le code suivant dans votre template (HTML /twing/...), à l’emplacement
    ```           
  CONSEIL : Il ne faut pas modifier le nom des id, cependant vous pouvez modifier la disposition des éléments
  ________________________________________
+ Aprés téléchargement du dossier SimulationEngraving-pluginjquery.
  
- Maintenant vous devez placer entre vos balises <head> les appellent suivant :
+ Placé dans votre dossier js le fichier "SimulationEngraving.js".
+ 
+ Puis dans votre dossier css le fichier "style.css", ainsi que le style que vous souhaitez (optionnel).
+ 
+ Maintenant vous devez placer entre vos balises <head> les appellent suivant (adapté vos chemins):
   
 ```sh
 <!--CSS--->
