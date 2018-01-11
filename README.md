@@ -13,7 +13,7 @@ Les choix sont présentés sous forme de liste de sélection, pour ces listes le
 
 ### **UTILISATION**
 #### 1.Mise en place du code
-Placer le code suivant dans votre template (HTML /twing/...), a l’emplacement où vous souhaitez le voir sur votre page :
+Placer le code suivant dans votre template (HTML /twing/...), à l’emplacement où vous souhaitez le voir sur votre page :
 ```sh
           <div id="container-Engraving">  
                     <div id="champs">
