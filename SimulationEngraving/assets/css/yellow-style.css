@@ -1,0 +1,18 @@
+/****Yellow style*****/
+
+body{
+   background-color:#fff
+}
+label{
+    color:#2c3e50;
+}
+#blockImage{
+    border:4px solid #f1c40f;
+}
+#valid{
+    color:#fff;
+    background-color:#f1c40f;
+}
+input, select{
+    border:4px solid #f1c40f;
+}

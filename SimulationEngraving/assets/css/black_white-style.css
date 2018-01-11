@@ -1,0 +1,18 @@
+/****Black & White style*****/
+
+body{
+   background-color:#fff
+}
+label{
+    color:#000;
+}
+#blockImage{
+    border:4px solid #000;
+}
+#valid{
+    color:#fff;
+    background-color:#000;
+}
+input, select{
+    border:4px solid #000;
+}

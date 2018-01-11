@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Simulateur de gravure</title>
+        
+        <!--CSS--->
+        <link rel="stylesheet" href="assets/css/style.css" >
+<!--
+        <link rel="stylesheet" href="assets/css/green-style.css" >
+        <link rel="stylesheet" href="assets/css/black_white-style.css">
+-->
+        <link rel="stylesheet" href="assets/css/yellow-style.css" >
+        
+        <!-- Jquery -->
+        <script src="assets/js/jquery.3.2.1.min.js" ></script>
+        
+        <!--Appel plugin-->
+        <script src="assets/js/SimulationEngraving.js" ></script>
+        
+        <!--Votre script-->
+        <script src="assets/js/script.js" ></script>
+        
+        <!--Style suplémentaire-non utile pour l'utilisation du plugin-->
+        <style>
+            #header, #footer{
+                text-align: center;
+                font-family : Verdana, sans-serif;
+            }
+            #footer{
+                color:#fff;
+                background-color:#000;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="header">
+            <h1>SimulationEngraving - le plugin qui permet de simuler une gravure</h1>
+        </div>
+        
+        <div id="container-Engraving">  
+                    <div id="champs">
+                        <p>
+                            <label>Couleurs du texte</label> :
+                            <select id="zColor">
+                            </select>                            
+                        </p>
+                        <p>
+                            <label>Taille de la police (px)</label> : 
+                            <select id="zFontSize">
+                            </select> 
+                        </p>
+                        <p>
+                            <label>Choix de la police de font</label> :
+                            <select id="zFontFamily">
+                            </select> 
+                        </p>
+                        <p>
+                            <label>Texte de gravure</label> : 
+                            <input id ="chooseText" type="text"/>
+                        </p>                        
+                        <p id="valid">Voir la gravure</p>
+
+                    </div>
+                    
+                    <div id="blockImage">
+                        <img id="chooseImg" src="assets/img/couteau.jpg" alt="img">
+						
+                        <div id="repere"></div>
+                    </div>
+        </div>
+        <div id="footer">
+            <p>Copyright © 2018 Juliane Dimanchin</p>
+        </div>
+    </body>      
+</html>
