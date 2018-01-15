@@ -1,6 +1,6 @@
 # SimulationEngraving-pluginjquery
 ## Guide d’utilisation du plugin jquery SimulationEngraving.js
-### Créer par Juliane Dimanchin
+### Créé par Juliane Dimanchin
 
 ### **DESCRIPTION**
 Ce plugin permet de simuler une gravure sur un élément en image de votre choix. Il vous permettra de guider l’utilisateur en lui proposant divers paramètres : 
@@ -56,7 +56,7 @@ Placer le code suivant dans votre template (HTML /twing/...), à l’emplacement
  
  Puis dans votre dossier css le fichier "style.css", ainsi que le style que vous souhaitez (optionnel).
  
- Maintenant vous devez placer entre vos balises <head> les appellent suivant (adapté vos chemins):
+Veuillez placer ces lignes dans votre fichier:
   
 ```sh
 <!--CSS--->
@@ -85,13 +85,13 @@ La dernière étape consiste à rentrer les attributs des paramètres utilisateu
 Appels des fonctions:
 ```sh
 $(document).Base();
-Attributs couleur de texte ( séparer pas des virgules)
+//Attributs couleur de texte ( séparer pas des virgules)
 $(document).listColor( ‘#C6E4E8’, ‘#576466’,’#000’);
-Attributs tailles de texte autorisé ( séparer pas des virgules)           
+//Attributs tailles de texte autorisé ( séparer pas des virgules)           
 $(document).listeFontSize(‘25’,’15’,’19’);
-Attributs polices de texte autorisé ( séparer pas des virgules)
+//Attributs polices de texte autorisé ( séparer pas des virgules)
 $(document).listeFontFamily(‘Brush Script Std, Brush Script MT, cursive’, ‘Andale Mono, monospace’, ‘Stencil Std, fantasy’);
-Nombre de caracteres autoriser pour le texte de la gravure
+//Nombre de caracteres autoriser pour le texte de la gravure
 $(document).nbCharacter(‘6’);
 ```
 
