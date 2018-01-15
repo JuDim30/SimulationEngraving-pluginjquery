@@ -56,7 +56,7 @@ Placer le code suivant dans votre template (HTML /twing/...), à l’emplacement
  
  Puis dans votre dossier css le fichier "style.css", ainsi que le style que vous souhaitez (optionnel).
  
-Veuillez placer ces lignes dans votre fichier:
+ Ajouter les ligne suivant:
   
 ```sh
 <!--CSS--->
