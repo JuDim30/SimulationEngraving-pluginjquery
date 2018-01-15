@@ -56,7 +56,7 @@ Placer le code suivant dans votre template (HTML /twing/...), à l’emplacement
  
  Puis dans votre dossier css le fichier "style.css", ainsi que le style que vous souhaitez (optionnel).
  
- Ajouter les ligne suivant:
+ Ajouter les lignes suivant:
   
 ```sh
 <!--CSS--->
@@ -81,7 +81,7 @@ CONSEIL : Vous pouvez si vous le souhaitez utiliser votre propre Css. Cependant 
 
 ### 2.Appel du plugin et paramétrage des attributs
 
-La dernière étape consiste à rentrer les attributs des paramètres utilisateurs. Ce code doit se trouver dans votre script .js
+La dernière étape consiste à rentrer les attributs des paramètres utilisateurs. Ce code doit se trouver dans votre .js
 Appels des fonctions:
 ```sh
 $(document).Base();
